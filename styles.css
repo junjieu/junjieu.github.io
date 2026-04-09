@@ -247,7 +247,8 @@ main {
   height: 440px;
   background: var(--color-white);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
+  /* PART 0.1：0 8px 32px rgba(45,58,69,0.2) */
+  box-shadow: 0 8px 32px rgba(45, 58, 69, 0.2);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -642,6 +643,128 @@ main {
   margin-top: 0;
 }
 
+.brand-block h3.brand-title + .h4-brand-good {
+  margin-top: var(--space-4);
+}
+
+.h4-brand-good {
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-4);
+  color: var(--color-secondary-dark);
+}
+
+.h4-brand-bad {
+  margin-top: var(--space-8);
+  margin-bottom: var(--space-4);
+  color: var(--color-primary-dark);
+}
+
+.brand-good-points {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.brand-point {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--color-text);
+}
+
+.brand-point code {
+  font-size: 0.9em;
+}
+
+.brand-logic-chain {
+  margin: var(--space-4) 0 var(--space-6);
+  padding: var(--space-4) var(--space-6);
+  border-left: 3px solid var(--color-secondary);
+  background: var(--color-secondary-light);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 14px;
+  color: var(--color-secondary-dark);
+}
+
+.brand-logic-chain code {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.spec-table-pitfalls th {
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.spec-table-pitfalls td {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.color-decision-note--flush {
+  margin-top: var(--space-4);
+}
+
+.brand-translate-block {
+  margin-top: var(--space-3);
+  padding: var(--space-4) var(--space-6);
+  background: var(--color-primary-light);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border-light);
+}
+
+.brand-pullquote {
+  margin: var(--space-6) 0 0;
+  padding: var(--space-4) var(--space-6);
+  font-size: 15px;
+  line-height: 1.55;
+  font-style: italic;
+  color: var(--color-primary-dark);
+  border-left: 4px solid var(--color-primary);
+  background: var(--color-bg);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.brand-block--conclusion {
+  border: 1px solid var(--color-border-active);
+  background: linear-gradient(180deg, var(--color-white) 0%, var(--color-primary-light) 100%);
+}
+
+.brand-core-conclusion {
+  margin: 0;
+  padding: var(--space-2) 0 var(--space-2) var(--space-6);
+  border-left: 4px solid var(--color-dark);
+}
+
+.brand-core-conclusion p {
+  margin: 0 0 var(--space-4);
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--color-text);
+}
+
+.brand-core-conclusion p:last-child {
+  margin-bottom: 0;
+}
+
+.mood-board-diagram {
+  margin: var(--space-6) 0;
+  padding: var(--space-6);
+  font-family: ui-monospace, "SF Mono", monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  white-space: pre;
+  overflow-x: auto;
+  color: rgba(245, 240, 235, 0.92);
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(216, 210, 204, 0.2);
+}
+
+.positioning-card code {
+  background: rgba(0, 0, 0, 0.25);
+  color: var(--color-primary);
+}
+
 .brand-lead {
   margin-bottom: var(--space-6);
 }
@@ -710,6 +833,7 @@ main {
 }
 
 .positioning-card .h3 {
+  margin-top: 0;
   color: var(--color-text-on-dark);
 }
 
