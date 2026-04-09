@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="Inter, -apple-system, sans-serif">
+
+  <!-- 整体背景 -->
+  <rect width="1920" height="1080" fill="#2D3A45"/>
+
+  <!-- 主卡片 -->
+  <rect x="40" y="40" width="1840" height="1000" rx="20" fill="#F5F0EB"/>
+
+  <!-- ── 顶部标题 ── -->
+  <text x="80" y="90" font-size="11" fill="#9A97AF" letter-spacing="3" font-weight="500">VONMIE DESIGN SYSTEM</text>
+  <text x="80" y="118" font-size="26" fill="#2D3A45" font-weight="200" letter-spacing="1">UI Color &amp; Typography</text>
+  <circle cx="1820" cy="95" r="18" fill="#E2CACC"/>
+  <text x="1820" y="100" font-size="9" fill="#885460" text-anchor="middle" dominant-baseline="middle">Seed</text>
+  <line x1="80" y1="135" x2="1860" y2="135" stroke="#D8D2CC" stroke-width="1"/>
+
+  <!-- ══════════════════════════════════════
+       左列：四组色阶  x=80~460
+  ══════════════════════════════════════ -->
+
+  <!-- PRIMARY 标签 -->
+  <text x="80" y="164" font-size="10" fill="#885460" font-weight="600" letter-spacing="1">Primary</text>
+  <text x="200" y="164" font-size="9" fill="#9A97AF">#E2CACC</text>
+  <!-- 色阶条 11格 -->
+  <rect x="80"  y="172" width="34" height="20" rx="2" fill="#FFFFFF" stroke="#EDE8E3" stroke-width="0.5"/>
+  <rect x="118" y="172" width="34" height="20" rx="2" fill="#FFF0F1"/>
+  <rect x="156" y="172" width="34" height="20" rx="2" fill="#FAD8DA"/>
+  <rect x="194" y="172" width="34" height="20" rx="2" fill="#F0C0C4"/>
+  <rect x="232" y="172" width="34" height="20" rx="2" fill="#E2CACC" stroke="#D4BBBF" stroke-width="1"/>
+  <rect x="270" y="172" width="34" height="20" rx="2" fill="#C8A0A2"/>
+  <rect x="308" y="172" width="34" height="20" rx="2" fill="#A87880"/>
+  <rect x="346" y="172" width="34" height="20" rx="2" fill="#885460"/>
+  <rect x="384" y="172" width="34" height="20" rx="2" fill="#643040"/>
+  <rect x="422" y="172" width="34" height="20" rx="2" fill="#3E1020"/>
+  <rect x="460" y="172" width="34" height="20" rx="2" fill="#1A0010"/>
+  <!-- 关键色标记 -->
+  <circle cx="249" cy="168" r="4" fill="#E2CACC" stroke="#885460" stroke-width="1"/>
+
+  <!-- SECONDARY 标签 -->
+  <text x="80" y="218" font-size="10" fill="#406688" font-weight="600" letter-spacing="1">Secondary</text>
+  <text x="228" y="218" font-size="9" fill="#9A97AF">#96AFC8</text>
+  <rect x="80"  y="226" width="34" height="20" rx="2" fill="#FFFFFF" stroke="#EDE8E3" stroke-width="0.5"/>
+  <rect x="118" y="226" width="34" height="20" rx="2" fill="#EBF2FA"/>
+  <rect x="156" y="226" width="34" height="20" rx="2" fill="#D0E3F2"/>
+  <rect x="194" y="226" width="34" height="20" rx="2" fill="#B2CFE8"/>
+  <rect x="232" y="226" width="34" height="20" rx="2" fill="#96AFC8" stroke="#7A9AB8" stroke-width="1"/>
+  <rect x="270" y="226" width="34" height="20" rx="2" fill="#7A9AB8"/>
+  <rect x="308" y="226" width="34" height="20" rx="2" fill="#5C80A0"/>
+  <rect x="346" y="226" width="34" height="20" rx="2" fill="#406688"/>
+  <rect x="384" y="226" width="34" height="20" rx="2" fill="#264C70"/>
+  <rect x="422" y="226" width="34" height="20" rx="2" fill="#0E3358"/>
+  <rect x="460" y="226" width="34" height="20" rx="2" fill="#001A30"/>
+  <circle cx="249" cy="222" r="4" fill="#96AFC8" stroke="#406688" stroke-width="1"/>
+
+  <!-- TERTIARY 标签 -->
+  <text x="80" y="272" font-size="10" fill="#5E5C83" font-weight="600" letter-spacing="1">Tertiary</text>
+  <text x="190" y="272" font-size="9" fill="#9A97AF">#9A97AF</text>
+  <rect x="80"  y="280" width="34" height="20" rx="2" fill="#FFFFFF" stroke="#EDE8E3" stroke-width="0.5"/>
+  <rect x="118" y="280" width="34" height="20" rx="2" fill="#F2F0F8"/>
+  <rect x="156" y="280" width="34" height="20" rx="2" fill="#E0DCF0"/>
+  <rect x="194" y="280" width="34" height="20" rx="2" fill="#C4C0E0"/>
+  <rect x="232" y="280" width="34" height="20" rx="2" fill="#9A97AF" stroke="#7A787F" stroke-width="1"/>
+  <rect x="270" y="280" width="34" height="20" rx="2" fill="#7A787F"/>
+  <rect x="308" y="280" width="34" height="20" rx="2" fill="#5E5C63"/>
+  <rect x="346" y="280" width="34" height="20" rx="2" fill="#444249"/>
+  <rect x="384" y="280" width="34" height="20" rx="2" fill="#2E2C33"/>
+  <rect x="422" y="280" width="34" height="20" rx="2" fill="#1A181F"/>
+  <rect x="460" y="280" width="34" height="20" rx="2" fill="#000000"/>
+  <circle cx="249" cy="276" r="4" fill="#9A97AF" stroke="#444249" stroke-width="1"/>
+
+  <!-- NEUTRAL 标签 -->
+  <text x="80" y="326" font-size="10" fill="#2D3A45" font-weight="600" letter-spacing="1">Neutral</text>
+  <text x="175" y="326" font-size="9" fill="#9A97AF">#F5F0EB</text>
+  <rect x="80"  y="334" width="34" height="20" rx="2" fill="#FFFFFF" stroke="#EDE8E3" stroke-width="0.5"/>
+  <rect x="118" y="334" width="34" height="20" rx="2" fill="#F5F0EB" stroke="#EDE8E3" stroke-width="0.5"/>
+  <rect x="156" y="334" width="34" height="20" rx="2" fill="#EDE8E3"/>
+  <rect x="194" y="334" width="34" height="20" rx="2" fill="#D8D2CC"/>
+  <rect x="232" y="334" width="34" height="20" rx="2" fill="#C4BCBA"/>
+  <rect x="270" y="334" width="34" height="20" rx="2" fill="#9A97AF"/>
+  <rect x="308" y="334" width="34" height="20" rx="2" fill="#7A787F"/>
+  <rect x="346" y="334" width="34" height="20" rx="2" fill="#5E5C63"/>
+  <rect x="384" y="334" width="34" height="20" rx="2" fill="#444249"/>
+  <rect x="422" y="334" width="34" height="20" rx="2" fill="#2D3A45"/>
+  <rect x="460" y="334" width="34" height="20" rx="2" fill="#000000"/>
+  <circle cx="135" cy="330" r="4" fill="#F5F0EB" stroke="#9A97AF" stroke-width="1"/>
+
+  <!-- ── 分隔 ── -->
+  <line x1="80" y1="374" x2="510" y2="374" stroke="#D8D2CC" stroke-width="0.5"/>
+
+  <!-- 色彩角色速查 -->
+  <text x="80" y="398" font-size="9" fill="#9A97AF" letter-spacing="2">COLOR ROLES</text>
+
+  <rect x="80"  y="410" width="100" height="32" rx="6" fill="#E2CACC"/>
+  <text x="130" y="430" font-size="9" fill="#2D3A45" text-anchor="middle">Primary</text>
+
+  <rect x="190" y="410" width="100" height="32" rx="6" fill="#96AFC8"/>
+  <text x="240" y="430" font-size="9" fill="#fff" text-anchor="middle">Secondary</text>
+
+  <rect x="300" y="410" width="100" height="32" rx="6" fill="#9A97AF"/>
+  <text x="350" y="430" font-size="9" fill="#fff" text-anchor="middle">Tertiary</text>
+
+  <rect x="80"  y="452" width="100" height="32" rx="6" fill="#F5F0EB" stroke="#D8D2CC" stroke-width="1"/>
+  <text x="130" y="472" font-size="9" fill="#2D3A45" text-anchor="middle">Background</text>
+
+  <rect x="190" y="452" width="100" height="32" rx="6" fill="#D8D2CC"/>
+  <text x="240" y="472" font-size="9" fill="#2D3A45" text-anchor="middle">Surface</text>
+
+  <rect x="300" y="452" width="100" height="32" rx="6" fill="#2D3A45"/>
+  <text x="350" y="472" font-size="9" fill="#F5F0EB" text-anchor="middle">On BG</text>
+
+  <!-- ══════════════════════════════════════
+       中列：字体展示  x=560~940
+  ══════════════════════════════════════ -->
+  <line x1="550" y1="145" x2="550" y2="1010" stroke="#D8D2CC" stroke-width="1"/>
+
+  <text x="580" y="164" font-size="9" fill="#9A97AF" letter-spacing="2">TYPOGRAPHY</text>
+
+  <!-- Headline -->
+  <text x="580" y="178" font-size="8" fill="#C4BCBA">Headline · Inter Light</text>
+  <text x="580" y="260" font-size="88" fill="#2D3A45" font-weight="200">Aa</text>
+
+  <!-- Body -->
+  <text x="580" y="298" font-size="8" fill="#C4BCBA">Body · Inter Regular</text>
+  <text x="580" y="370" font-size="72" fill="#2D3A45" font-weight="400">Aa</text>
+
+  <!-- Label -->
+  <text x="580" y="408" font-size="8" fill="#C4BCBA">Label · Inter Medium</text>
+  <text x="580" y="464" font-size="52" fill="#2D3A45" font-weight="500">Aa</text>
+
+  <!-- 字重展示 -->
+  <line x1="580" y1="490" x2="930" y2="490" stroke="#D8D2CC" stroke-width="0.5"/>
+  <text x="580" y="514" font-size="9" fill="#9A97AF" letter-spacing="2">WEIGHT SCALE</text>
+  <text x="580" y="548" font-size="28" fill="#2D3A45" font-weight="200">Light 200</text>
+  <text x="580" y="582" font-size="28" fill="#2D3A45" font-weight="300">Book 300</text>
+  <text x="580" y="616" font-size="28" fill="#2D3A45" font-weight="400">Regular 400</text>
+  <text x="580" y="650" font-size="28" fill="#2D3A45" font-weight="500">Medium 500</text>
+
+  <!-- 字号层级 -->
+  <line x1="580" y1="672" x2="930" y2="672" stroke="#D8D2CC" stroke-width="0.5"/>
+  <text x="580" y="695" font-size="9" fill="#9A97AF" letter-spacing="2">SIZE SCALE</text>
+  <text x="580" y="728" font-size="32" fill="#2D3A45" font-weight="200">Display 32</text>
+  <text x="580" y="758" font-size="20" fill="#2D3A45" font-weight="300">Heading 20</text>
+  <text x="580" y="782" font-size="14" fill="#2D3A45" font-weight="400">Body 14 · 正文内容说明文字</text>
+  <text x="580" y="800" font-size="11" fill="#9A97AF" font-weight="400">Caption 11 · 注释辅助信息</text>
+  <text x="580" y="816" font-size="9" fill="#96AFC8" font-weight="500" letter-spacing="2">LABEL 9 · 全大写标签</text>
+
+  <!-- ══════════════════════════════════════
+       右列：组件  x=960~1860
+  ══════════════════════════════════════ -->
+  <line x1="950" y1="145" x2="950" y2="1010" stroke="#D8D2CC" stroke-width="1"/>
+  <text x="980" y="164" font-size="9" fill="#9A97AF" letter-spacing="2">COMPONENTS</text>
+
+  <!-- ─ Buttons ─ -->
+  <text x="980" y="196" font-size="8" fill="#C4BCBA" letter-spacing="1">BUTTON</text>
+  <!-- Primary filled -->
+  <rect x="980" y="206" width="160" height="48" rx="24" fill="#E2CACC"/>
+  <text x="1060" y="235" font-size="14" fill="#2D3A45" text-anchor="middle" font-weight="400">Primary</text>
+  <!-- Inverted / dark -->
+  <rect x="1156" y="206" width="160" height="48" rx="24" fill="#2D3A45"/>
+  <text x="1236" y="235" font-size="14" fill="#F5F0EB" text-anchor="middle" font-weight="400">Inverted</text>
+  <!-- Secondary outlined -->
+  <rect x="980" y="264" width="160" height="48" rx="24" fill="none" stroke="#E2CACC" stroke-width="2"/>
+  <text x="1060" y="293" font-size="14" fill="#E2CACC" text-anchor="middle" font-weight="400">Secondary</text>
+  <!-- Outlined neutral -->
+  <rect x="1156" y="264" width="160" height="48" rx="24" fill="none" stroke="#D8D2CC" stroke-width="1.5"/>
+  <text x="1236" y="293" font-size="14" fill="#9A97AF" text-anchor="middle" font-weight="400">Outlined</text>
+
+  <!-- ─ Search / Input ─ -->
+  <line x1="980" y1="330" x2="1860" y2="330" stroke="#EDE8E3" stroke-width="0.8"/>
+  <text x="980" y="352" font-size="8" fill="#C4BCBA" letter-spacing="1">INPUT</text>
+  <rect x="980" y="362" width="520" height="48" rx="24" fill="#F5F0EB" stroke="#D8D2CC" stroke-width="1"/>
+  <!-- search icon circle -->
+  <circle cx="1012" cy="386" r="10" fill="none" stroke="#9A97AF" stroke-width="1.5"/>
+  <line x1="1019" y1="393" x2="1026" y2="400" stroke="#9A97AF" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="1038" y="391" font-size="13" fill="#C4BCBA" dominant-baseline="middle">Search...</text>
+
+  <!-- Active input -->
+  <rect x="980" y="422" width="520" height="48" rx="24" fill="#FFF0F1" stroke="#E2CACC" stroke-width="1.5"/>
+  <circle cx="1012" cy="446" r="10" fill="none" stroke="#E2CACC" stroke-width="1.5"/>
+  <line x1="1019" y1="453" x2="1026" y2="460" stroke="#E2CACC" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="1038" y="451" font-size="13" fill="#2D3A45" dominant-baseline="middle">玫瑰裸色系</text>
+
+  <!-- ─ Tags ─ -->
+  <line x1="980" y1="490" x2="1860" y2="490" stroke="#EDE8E3" stroke-width="0.8"/>
+  <text x="980" y="512" font-size="8" fill="#C4BCBA" letter-spacing="1">TAGS / CHIPS</text>
+  <rect x="980"  y="522" width="88" height="32" rx="16" fill="#FFF0F1"/>
+  <text x="1024" y="542" font-size="11" fill="#885460" text-anchor="middle">舒缓</text>
+  <rect x="1078" y="522" width="88" height="32" rx="16" fill="#EBF2FA"/>
+  <text x="1122" y="542" font-size="11" fill="#406688" text-anchor="middle">科技</text>
+  <rect x="1176" y="522" width="88" height="32" rx="16" fill="#F2F0F8"/>
+  <text x="1220" y="542" font-size="11" fill="#5E5C63" text-anchor="middle">温柔</text>
+  <rect x="1274" y="522" width="88" height="32" rx="16" fill="#D8D2CC"/>
+  <text x="1318" y="542" font-size="11" fill="#2D3A45" text-anchor="middle">默认</text>
+  <!-- icon tags -->
+  <rect x="980"  y="564" width="32" height="32" rx="16" fill="#E2CACC"/>
+  <text x="996"  y="584" font-size="14" fill="#885460" text-anchor="middle">♡</text>
+  <rect x="1022" y="564" width="32" height="32" rx="16" fill="#EBF2FA"/>
+  <text x="1038" y="584" font-size="14" fill="#406688" text-anchor="middle">⊕</text>
+  <rect x="1064" y="564" width="32" height="32" rx="16" fill="#F2F0F8"/>
+  <text x="1080" y="584" font-size="14" fill="#5E5C63" text-anchor="middle">◎</text>
+  <rect x="1106" y="564" width="32" height="32" rx="16" fill="#3E1020"/>
+  <text x="1122" y="584" font-size="14" fill="#FAD8DA" text-anchor="middle">✕</text>
+  <!-- label pill -->
+  <rect x="1158" y="564" width="88" height="32" rx="6" fill="#E2CACC"/>
+  <text x="1180" y="576" font-size="7" fill="#885460">✦ Label</text>
+  <text x="1180" y="590" font-size="7" fill="#885460" opacity="0.7">Primary</text>
+
+  <!-- ─ Cards ─ -->
+  <line x1="980" y1="616" x2="1860" y2="616" stroke="#EDE8E3" stroke-width="0.8"/>
+  <text x="980" y="638" font-size="8" fill="#C4BCBA" letter-spacing="1">CARDS</text>
+
+  <!-- Card 1 -->
+  <rect x="980"  y="648" width="266" height="140" rx="16" fill="#FFFFFF"/>
+  <rect x="980"  y="648" width="266" height="48"  rx="16" fill="#FFF0F1"/>
+  <rect x="980"  y="682" width="266" height="14"  fill="#FFF0F1"/>
+  <text x="1004" y="680" font-size="11" fill="#885460" font-weight="500">舒缓模式</text>
+  <text x="1004" y="716" font-size="9"  fill="#9A97AF">低频EMS · 放松护理</text>
+  <text x="1004" y="734" font-size="9"  fill="#9A97AF">推荐时长 20 分钟</text>
+  <rect x="1004" y="752" width="64"   height="12" rx="6" fill="#E2CACC"/>
+  <text x="1036" y="762" font-size="8" fill="#885460" text-anchor="middle">开始</text>
+
+  <!-- Card 2 -->
+  <rect x="1262" y="648" width="266" height="140" rx="16" fill="#FFFFFF"/>
+  <rect x="1262" y="648" width="266" height="48"  rx="16" fill="#EBF2FA"/>
+  <rect x="1262" y="682" width="266" height="14"  fill="#EBF2FA"/>
+  <text x="1286" y="680" font-size="11" fill="#406688" font-weight="500">科技模式</text>
+  <text x="1286" y="716" font-size="9"  fill="#9A97AF">高频EMS · 精准提拉</text>
+  <text x="1286" y="734" font-size="9"  fill="#9A97AF">推荐时长 10 分钟</text>
+  <rect x="1286" y="752" width="64"   height="12" rx="6" fill="#96AFC8"/>
+  <text x="1318" y="762" font-size="8" fill="#FFFFFF" text-anchor="middle">开始</text>
+
+  <!-- ─ Nav Bar ─ -->
+  <line x1="980" y1="808" x2="1860" y2="808" stroke="#EDE8E3" stroke-width="0.8"/>
+  <text x="980" y="830" font-size="8" fill="#C4BCBA" letter-spacing="1">NAVIGATION</text>
+  <rect x="980" y="840" width="520" height="64" rx="16" fill="#FFFFFF"/>
+  <!-- active -->
+  <rect x="998" y="848" width="90" height="48" rx="12" fill="#FFF0F1"/>
+  <circle cx="1043" cy="861" r="7" fill="#E2CACC"/>
+  <text x="1043" y="885" font-size="8" fill="#885460" text-anchor="middle">首页</text>
+  <!-- rest -->
+  <circle cx="1158" cy="861" r="7" fill="#D8D2CC"/>
+  <text x="1158" y="885" font-size="8" fill="#9A97AF" text-anchor="middle">探索</text>
+  <circle cx="1273" cy="861" r="7" fill="#D8D2CC"/>
+  <text x="1273" y="885" font-size="8" fill="#9A97AF" text-anchor="middle">记录</text>
+  <circle cx="1388" cy="861" r="7" fill="#D8D2CC"/>
+  <text x="1388" y="885" font-size="8" fill="#9A97AF" text-anchor="middle">我的</text>
+
+  <!-- ─ Slider ─ -->
+  <line x1="980" y1="922" x2="1860" y2="922" stroke="#EDE8E3" stroke-width="0.8"/>
+  <text x="980" y="944" font-size="8" fill="#C4BCBA" letter-spacing="1">SLIDER</text>
+  <rect x="980" y="954" width="520" height="6" rx="3" fill="#D8D2CC"/>
+  <rect x="980" y="954" width="320" height="6" rx="3" fill="#E2CACC"/>
+  <circle cx="1300" cy="957" r="12" fill="#FFFFFF" stroke="#E2CACC" stroke-width="2"/>
+
+  <!-- ══════════════════════════════════════
+       底部版本信息
+  ══════════════════════════════════════ -->
+  <line x1="80" y1="1000" x2="1860" y2="1000" stroke="#D8D2CC" stroke-width="0.8"/>
+  <text x="80"   y="1025" font-size="8" fill="#9A97AF">Seed: Rose Nude #E2CACC  ·  BG: Frost White #F5F0EB  ·  Primary #E2CACC  ·  Secondary #96AFC8  ·  Tertiary #9A97AF  ·  Neutral #F5F0EB→#2D3A45</text>
+  <text x="80"   y="1042" font-size="8" fill="#9A97AF">Typography: Inter Light / Regular / Medium / SemiBold  ·  中文: 苹方-SC Light（待确认）</text>
+  <text x="1860" y="1033" font-size="8" fill="#9A97AF" text-anchor="end">VONMIE Design System  ·  UI v1.1  ·  2026</text>
+
+</svg>
