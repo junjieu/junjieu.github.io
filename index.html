@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VONMIE · 俪典视觉 — 从调研到设计体系</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Noto+Sans+SC:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="logo" href="#hero" aria-label="俪典视觉 首页">
+        <span class="logo-mark"></span>
+        <span class="logo-text">俪典视觉</span>
+      </a>
+      <nav class="nav-anchors" aria-label="页面导航">
+        <a href="#hero">首页</a>
+        <a href="#overview">总览</a>
+        <a href="#research">调研</a>
+        <a href="#brand">品牌</a>
+        <a href="#colors">色彩</a>
+        <a href="#typography">字体</a>
+        <a href="#components">组件</a>
+        <a href="#spec">形态</a>
+        <a href="#css-vars">变量</a>
+        <a href="#taboos">禁忌</a>
+      </nav>
+      <a class="btn btn-primary btn-nav-cta" href="#overview">查看设计规范</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- PART 0 · Hero -->
+    <section class="section section-hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-cards" aria-label="产品展示三图">
+          <article class="hero-card">
+            <div class="hero-card-visual hero-card-visual--front" role="img" aria-label="产品正面渲染示意"></div>
+            <div class="hero-card-caption">
+              <span class="hero-card-label">产品正面</span>
+              <span class="hero-card-sub">渲染</span>
+            </div>
+          </article>
+          <article class="hero-card">
+            <div class="hero-card-visual hero-card-visual--side" role="img" aria-label="产品侧面细节示意"></div>
+            <div class="hero-card-caption">
+              <span class="hero-card-label">产品侧面</span>
+              <span class="hero-card-sub">细节</span>
+            </div>
+          </article>
+          <article class="hero-card">
+            <div class="hero-card-visual hero-card-visual--scene" role="img" aria-label="使用场景示意"></div>
+            <div class="hero-card-caption">
+              <span class="hero-card-label">使用</span>
+              <span class="hero-card-sub">场景</span>
+            </div>
+          </article>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow-on-dark">VONMIE DESIGN SYSTEM · v2.0</p>
+          <h1 class="display-title">VONMIE</h1>
+          <p class="hero-tagline">专业的温柔 · Precision Beauty</p>
+          <p class="hero-desc">基于真实用户洞察 × 品牌基因分析 × 精密设计规范</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#overview">查看设计规范</a>
+            <a class="btn btn-secondary-on-dark" href="#research">了解品牌故事</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 0 · Overview -->
+    <section class="section section-overview" id="overview">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="h2">Design System Overview</h2>
+          <p class="section-lead">从调研到规范，每一个决策都有依据</p>
+        </header>
+        <div class="overview-board">
+          <img
+            class="overview-svg"
+            src="VONMIE_设计系统总览.svg"
+            alt="设计系统总览：色彩阶梯、字体与组件预览"
+            width="1200"
+            height="675"
+            loading="lazy"
+          />
+        </div>
+        <div class="metric-grid">
+          <article class="metric-card">
+            <p class="metric-num" aria-label="11">11</p>
+            <p class="metric-label">次用户访谈</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-num" aria-label="2">2</p>
+            <p class="metric-label">个标杆品牌</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-num" aria-label="4">4</p>
+            <p class="metric-label">组色阶</p>
+          </article>
+          <article class="metric-card">
+            <p class="metric-num" aria-label="6">6</p>
+            <p class="metric-label">层圆角</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 1 · Research -->
+    <section class="section section-research" id="research">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="h2">调研背景</h2>
+          <p class="section-lead">用数据与洞察建立信任感 · 深度 1v1 · 20–30 岁都市女性 · 一线在校生 / 白领</p>
+        </header>
+        <p class="body-lg research-intro">
+          访谈维度覆盖：EMS 认知、购买决策、审美偏好、生活方式关联。以下六条核心洞察均<strong>直接对应一条设计决策</strong>。
+        </p>
+        <div class="insight-grid">
+          <article class="insight-card">
+            <span class="tag tag-primary">洞察 01</span>
+            <h3 class="h3">「科技感 = 安全可靠」，而非炫技</h3>
+            <blockquote class="insight-quote">「你走进一个美容院，看到他们那么有科技感，就觉得它肯定是安全的——这是最重要的……」</blockquote>
+            <div class="decision-arrow">→</div>
+            <p class="decision"><strong>设计决策：</strong>科技感服务于信任。视觉做「精密医仪感」——冷静、可靠，不做科幻炫技。</p>
+          </article>
+          <article class="insight-card insight-card--highlight">
+            <span class="tag tag-primary">洞察 02</span>
+            <h3 class="h3">「医疗白 + 警示红」= 恐惧</h3>
+            <blockquote class="insight-quote">「假如它做得像医疗设备，那种白色然后中间几个按钮是红色的……你可能会看到就觉得怕了。」</blockquote>
+            <div class="decision-arrow">→</div>
+            <p class="decision"><strong>设计决策：</strong>禁用冷白 + 警示红。主色改为玫瑰裸 <code>#E2CACC</code> —— 保留专业感，去除恐惧感。</p>
+          </article>
+          <article class="insight-card insight-card--highlight">
+            <span class="tag tag-secondary">洞察 03</span>
+            <h3 class="h3">莫兰迪 = 「选它不会输错」</h3>
+            <blockquote class="insight-quote">「莫兰迪这种……大部分人都会喜欢，有种『选择它不会输错的感觉』……」</blockquote>
+            <div class="decision-arrow">→</div>
+            <p class="decision"><strong>设计决策：</strong>全链路低饱和莫兰迪调：主色 <code>#E2CACC</code>、辅色 <code>#96AFC8</code>、页面背景 <code>#F5F0EB</code>。</p>
+          </article>
+          <article class="insight-card insight-card--highlight">
+            <span class="tag tag-tertiary">洞察 04</span>
+            <h3 class="h3">圆润感 = 想触摸</h3>
+            <blockquote class="insight-quote">「C 第一眼吸引我的是它突起来的圆润线条……那个按钮让我一看到就很想去按它。」</blockquote>
+            <div class="decision-arrow">→</div>
+            <p class="decision"><strong>设计决策：</strong>产品正面倒角 <strong>R96</strong>、侧面 <strong>R32</strong>；UI 按钮全圆角胶囊，卡片圆角 <strong>12px</strong>。</p>
+          </article>
+          <article class="insight-card">
+            <span class="tag tag-neutral">洞察 05</span>
+            <h3 class="h3">跳色带来「玩具感」</h3>
+            <blockquote class="insight-quote">「如果没有那个跳色（橙色），会不会看起来稍微……可信度高一点？」</blockquote>
+            <div class="decision-arrow">→</div>
+            <p class="decision"><strong>设计决策：</strong>禁止高饱和跳色；辅色严控为烟蓝 / 薰衣草灰；材质哑光磨砂提升专业感。</p>
+          </article>
+          <article class="insight-card">
+            <span class="tag tag-primary">洞察 06</span>
+            <h3 class="h3">小红书 = 女性生活方式分享</h3>
+            <blockquote class="insight-quote">「主要是小红书，感觉更集中于女生之间分享生活经验的一个软件。」</blockquote>
+            <div class="decision-arrow">→</div>
+            <p class="decision"><strong>设计决策：</strong>叙事改为「有仪式感的生活方式」—— 场景化、真实皮肤、暖光，避免功能硬广罗列。</p>
+          </article>
+        </div>
+        <div class="methodology">
+          <h3 class="h3">推导式流程（工业设计逻辑）</h3>
+          <ol class="method-steps">
+            <li>市场分析（差异化点）</li>
+            <li>用户研究（产品特性 / 用户画像 / 使用场景）</li>
+            <li>设计基因关键词（极简 × 圆润 × 莫兰迪 × 专业可信赖）</li>
+            <li>视觉元素提取（参考品牌 → 迁移至 VONMIE）</li>
+            <li>设计规范落地（颜色 / 字体 / 圆角 / 组件 / 材质）</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 2 · Brand -->
+    <section class="section section-brand" id="brand">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="h2">品牌基因分析</h2>
+          <p class="section-lead">向标杆学习叙事与颜色，踩过的雷对应 VONMIE 的设计禁忌</p>
+        </header>
+
+        <div class="brand-block">
+          <h3 class="h3 brand-title">Stanley · 颜色是叙事工具</h3>
+          <p class="body-lg brand-lead">
+            「田园绿」让 Stanley 从工地来到野餐布——<strong>一个颜色完成形象跃迁</strong>。
+            <span class="brand-translate">→ VONMIE：<strong>玫瑰裸 <code>#E2CACC</code></strong> 让 EMS 从医疗仪器变成梳妆台单品。</span>
+          </p>
+          <div class="table-wrap">
+            <table class="spec-table">
+              <thead>
+                <tr>
+                  <th>维度</th>
+                  <th>具体策略</th>
+                  <th>VONMIE 借鉴</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>叙事重构</td>
+                  <td>工地保温杯 → 精致女生必备</td>
+                  <td>医疗 EMS → 居家护理仪式必备</td>
+                </tr>
+                <tr>
+                  <td>饥饿营销</td>
+                  <td>限定色 + 联名 = 社交传播</td>
+                  <td>成熟后可做设计师联名 / 限定色礼盒</td>
+                </tr>
+                <tr>
+                  <td>质量托底</td>
+                  <td>视觉再好，产品必须过关</td>
+                  <td>医疗级硅胶 + ABS 哑光，不降标</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="pitfalls">
+            <h4 class="h4">踩的雷 → VONMIE 禁忌</h4>
+            <ul>
+              <li>品牌割裂（男性工具 vs 少女粉）→ 从第一天锚定「专业的温柔」</li>
+              <li>过度联名失主见 → 联名谨慎，视觉系统要有强势主张</li>
+              <li>质量召回摧毁叙事 → 材质规范从设计层锁死</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="brand-block">
+          <h3 class="h3 brand-title">Lululemon · 技术转生活方式叙事</h3>
+          <p class="body-lg brand-lead">
+            把「面料技术」讲成生活方式。
+            <span class="brand-translate">→ VONMIE：把 <strong>EMS 技术</strong> 叙事为 <strong>「舒缓日常仪式感」</strong>。</span>
+          </p>
+          <div class="table-wrap">
+            <table class="spec-table">
+              <thead>
+                <tr>
+                  <th>维度</th>
+                  <th>具体策略</th>
+                  <th>VONMIE 借鉴</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>精准人群</td>
+                  <td>只卖给「在乎自己身体的人」</td>
+                  <td>锁定「24 岁都市女性，认真对待自己」</td>
+                </tr>
+                <tr>
+                  <td>技术叙事</td>
+                  <td>面料技术 → 生活方式</td>
+                  <td>EMS → 舒缓日常仪式感</td>
+                </tr>
+                <tr>
+                  <td>稀缺 / 社群</td>
+                  <td>限量色、践行者社群</td>
+                  <td>限定配色款；鼓励分享「使用仪式感」至小红书</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="pitfalls">
+            <h4 class="h4">踩的雷 → VONMIE 禁忌</h4>
+            <ul>
+              <li>扩品类太快、记忆模糊 → 前期只做美容仪，不泛化</li>
+              <li>依赖单一市场 → 建立清晰品牌资产，不依赖单一渠道</li>
+              <li>过度营销显廉价 → 视觉克制，少说话，让产品说话</li>
+            </ul>
+          </div>
+          <p class="body color-decision-note">
+            Lululemon 用「体育科技黑」撑专业，「季节马卡龙」造话题。
+            <strong>VONMIE 转译：</strong>深不锈钢 <code>#2D3A45</code> 作专业底，玫瑰裸 <code>#E2CACC</code> 作温柔亮色的核心张力。
+          </p>
+        </div>
+
+        <div class="positioning-card">
+          <h3 class="h3">设计调性锚定</h3>
+          <p class="body">
+            基于双品牌分析 + 访谈 + 色彩趋势（玫瑰裸在趋势中高比例出现），VONMIE 位于<strong>工业冷硬材质语言</strong>与<strong>柔粉生活方式</strong>之间——靠近柔粉，但用哑光金属感撑住专业感。
+          </p>
+          <p class="positioning-keywords">核心定位词：「专业的温柔」·「让你放心的精致」</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 3 · Colors -->
+    <section class="section section-colors" id="colors">
+      <div class="container">
+        <header class="section-head section-head-on-dark">
+          <h2 class="h2 h2-on-dark">精确设计规范 · 色彩</h2>
+          <p class="section-lead section-lead-on-dark">Seed · Primary / Secondary / Tertiary · Neutral</p>
+        </header>
+        <div class="seed-swatch">
+          <span class="seed-dot" aria-hidden="true"></span>
+          <div>
+            <p class="label-caps">Seed Color</p>
+            <p class="h3 h3-on-dark">Rose Nude <code>#E2CACC</code></p>
+          </div>
+        </div>
+        <div class="color-groups">
+          <div class="color-group">
+            <h3 class="h3 h3-on-dark">Primary</h3>
+            <div class="swatch-row">
+              <div class="swatch" style="--swatch:#E2CACC"><span>primary</span><code>#E2CACC</code></div>
+              <div class="swatch" style="--swatch:#FFF0F1"><span>light</span><code>#FFF0F1</code></div>
+              <div class="swatch swatch--dark" style="--swatch:#885460"><span>dark</span><code>#885460</code></div>
+              <div class="swatch" style="--swatch:#2D3A45"><span>on-primary</span><code>#2D3A45</code></div>
+              <div class="swatch" style="--swatch:#D4BBBF"><span>hover</span><code>#D4BBBF</code></div>
+            </div>
+          </div>
+          <div class="color-group">
+            <h3 class="h3 h3-on-dark">Secondary</h3>
+            <div class="swatch-row">
+              <div class="swatch" style="--swatch:#96AFC8"><span>secondary</span><code>#96AFC8</code></div>
+              <div class="swatch" style="--swatch:#EBF2FA"><span>light</span><code>#EBF2FA</code></div>
+              <div class="swatch swatch--dark" style="--swatch:#406688"><span>dark</span><code>#406688</code></div>
+              <div class="swatch" style="--swatch:#FFFFFF"><span>on-secondary</span><code>#FFFFFF</code></div>
+            </div>
+          </div>
+          <div class="color-group">
+            <h3 class="h3 h3-on-dark">Tertiary &amp; Neutral</h3>
+            <div class="swatch-row">
+              <div class="swatch" style="--swatch:#9A97AF"><span>tertiary</span><code>#9A97AF</code></div>
+              <div class="swatch" style="--swatch:#F2F0F8"><span>tert-light</span><code>#F2F0F8</code></div>
+              <div class="swatch" style="--swatch:#F5F0EB"><span>bg</span><code>#F5F0EB</code></div>
+              <div class="swatch" style="--swatch:#D8D2CC"><span>surface</span><code>#D8D2CC</code></div>
+              <div class="swatch swatch--dark" style="--swatch:#2D3A45"><span>dark / text</span><code>#2D3A45</code></div>
+            </div>
+          </div>
+        </div>
+        <div class="primary-ramp">
+          <p class="label-caps label-on-dark">Primary 完整阶梯</p>
+          <div class="ramp-bars" aria-label="Primary 色阶 0 到 100">
+            <span style="--c:#FFFFFF" title="#FFFFFF"></span>
+            <span style="--c:#FFF0F1" title="#FFF0F1"></span>
+            <span style="--c:#FAD8DA" title="#FAD8DA"></span>
+            <span style="--c:#F0C0C4" title="#F0C0C4"></span>
+            <span class="ramp-key" style="--c:#E2CACC" title="#E2CACC Primary"></span>
+            <span style="--c:#C8A0A2" title="#C8A0A2"></span>
+            <span style="--c:#A87880" title="#A87880"></span>
+            <span style="--c:#885460" title="#885460"></span>
+            <span style="--c:#643040" title="#643040"></span>
+            <span style="--c:#3E1020" title="#3E1020"></span>
+            <span style="--c:#000000" title="#000000"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 3 · Typography -->
+    <section class="section section-typography" id="typography">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="h2">字体系统</h2>
+          <p class="section-lead">Inter + PingFang SC / Noto Sans SC · 精确到 px 与字重</p>
+        </header>
+        <p class="font-stack-note body">英文：<code>Inter</code> · 中文：<code>PingFang SC</code>，<code>Noto Sans SC</code></p>
+        <div class="type-scale">
+          <div class="type-row type-display"><span class="type-meta">display · 48px / 200 / -0.02em</span>Precision Beauty</div>
+          <div class="type-row type-h1"><span class="type-meta">h1 · 32px / 200</span>页面主标题</div>
+          <div class="type-row type-h2"><span class="type-meta">h2 · 24px / 300</span>区块标题样式</div>
+          <div class="type-row type-h3"><span class="type-meta">h3 · 20px / 300</span>卡片标题样式</div>
+          <div class="type-row type-body-lg"><span class="type-meta">body-lg · 16px / 400</span>大段正文用于说明与引用，行高 1.6 保证可读性。</div>
+          <div class="type-row type-body"><span class="type-meta">body · 14px / 400</span>标准正文与表格内文字。</div>
+          <div class="type-row type-caption"><span class="type-meta">caption · 12px / 400</span>注释与辅助信息</div>
+          <div class="type-row type-label"><span class="type-meta">label · 10px / 600 / 0.12em</span>UPPERCASE LABEL</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 3 · Components -->
+    <section class="section section-components" id="components">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="h2">组件规范</h2>
+          <p class="section-lead">按钮 · 输入框 · 卡片 · 标签 · 导航 · 滑块 — 圆角与 hex 与文档一致</p>
+        </header>
+        <div class="component-grid">
+          <div class="demo-card">
+            <div class="demo-card-strip demo-card-strip--primary"></div>
+            <h3 class="h3">按钮</h3>
+            <p class="caption">高度 48px · 内边距 14px 32px · 圆角 9999px · 悬停 200ms ease</p>
+            <div class="btn-row">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary-outline">Secondary</button>
+              <button type="button" class="btn btn-dark">Dark</button>
+              <button type="button" class="btn btn-science">Science</button>
+            </div>
+          </div>
+          <div class="demo-card">
+            <div class="demo-card-strip demo-card-strip--secondary"></div>
+            <h3 class="h3">输入框</h3>
+            <p class="caption">高 48px · 圆角 8px · 描边 1px #D8D2CC</p>
+            <label class="sr-only" for="demo-input">演示输入</label>
+            <input id="demo-input" class="input-demo" type="text" placeholder="Placeholder #C4BCBA" />
+          </div>
+          <div class="demo-card">
+            <div class="demo-card-strip demo-card-strip--tertiary"></div>
+            <h3 class="h3">标签胶囊</h3>
+            <p class="caption">高 28px · 6px 14px · 11px Medium</p>
+            <div class="tag-row">
+              <span class="pill pill-primary">Primary</span>
+              <span class="pill pill-secondary">Secondary</span>
+              <span class="pill pill-tertiary">Tertiary</span>
+              <span class="pill pill-neutral">Neutral</span>
+            </div>
+          </div>
+          <div class="demo-card demo-card--wide">
+            <div class="demo-card-strip demo-card-strip--primary"></div>
+            <h3 class="h3">滑块</h3>
+            <p class="caption">轨道 6px #D8D2CC · 填充 #E2CACC · 手柄 24px</p>
+            <div class="slider-demo" role="presentation">
+              <div class="slider-track"><div class="slider-fill" style="width:42%"></div></div>
+              <div class="slider-thumb" style="left:42%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 3 · Radius + Spec -->
+    <section class="section section-spec" id="spec">
+      <div class="container">
+        <header class="section-head section-head-on-dark">
+          <h2 class="h2 h2-on-dark">圆角 · 间距 · 动效 · 产品形态</h2>
+          <p class="section-lead section-lead-on-dark">1/3 递进：R96 → R32 → R9（产品）· UI 令牌见下表</p>
+        </header>
+        <div class="spec-columns">
+          <div class="spec-panel">
+            <h3 class="h3 h3-on-dark">圆角系统</h3>
+            <ul class="radius-list">
+              <li><code>--radius-xs</code> 4px — 标签内嵌、代码块</li>
+              <li><code>--radius-sm</code> 8px — 输入框、小卡片</li>
+              <li><code>--radius-md</code> 12px — 标准卡片、弹窗</li>
+              <li><code>--radius-lg</code> 16px — 大卡片、图片容器</li>
+              <li><code>--radius-xl</code> 24px — Hero 容器</li>
+              <li><code>--radius-full</code> 9999px — <strong>所有按钮</strong></li>
+            </ul>
+            <div class="radius-visual">
+              <span class="rv rv-xs"></span>
+              <span class="rv rv-sm"></span>
+              <span class="rv rv-md"></span>
+              <span class="rv rv-lg"></span>
+              <span class="rv rv-xl"></span>
+              <span class="rv rv-full"></span>
+            </div>
+          </div>
+          <div class="spec-panel">
+            <h3 class="h3 h3-on-dark">间距</h3>
+            <p class="body-on-dark">4 · 8 · 12 · 16 · 24 · 32 · 48 · 64 · 96px</p>
+            <h3 class="h3 h3-on-dark spacing-top">动效</h3>
+            <ul class="radius-list">
+              <li>按钮 200ms · 卡片 300ms · ease</li>
+              <li>卡片悬停：<code>translateY(-4px)</code> + 阴影加深</li>
+              <li>输入激活：描边 150ms ease</li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-spec-embed">
+          <h3 class="h3 h3-on-dark">产品形态规范（SVG）</h3>
+          <div class="product-svg-frame">
+            <img
+              src="VONMIE_产品形态规范v2 1.svg"
+              alt="VONMIE 产品形态规范：R96 正面倒角、R32 侧面等"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 5 inline: CSS variables (collapsible visually as code block) -->
+    <section class="section section-css" id="css-vars">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="h2">CSS 变量清单</h2>
+          <p class="section-lead">可直接粘贴至项目 <code>index.css</code></p>
+        </header>
+        <pre class="code-block" tabindex="0"><code>:root {
+  /* ── Colors ── */
+  --color-bg:              #F5F0EB;
+  --color-white:           #FFFFFF;
+  --color-surface:         #D8D2CC;
+  --color-dark:            #2D3A45;
+  --color-dark-2:          #3D4E5C;
+  --color-dark-3:          #444249;
+
+  --color-primary:         #E2CACC;
+  --color-primary-light:   #FFF0F1;
+  --color-primary-mid:     #F0C0C4;
+  --color-primary-dark:    #885460;
+  --color-primary-deeper:  #643040;
+  --color-on-primary:      #2D3A45;
+  --color-primary-hover:   #D4BBBF;
+
+  --color-secondary:       #96AFC8;
+  --color-secondary-light: #EBF2FA;
+  --color-secondary-dark:  #406688;
+  --color-on-secondary:    #FFFFFF;
+  --color-secondary-hover: #7A9AB8;
+
+  --color-tertiary:        #9A97AF;
+  --color-tertiary-light:  #F2F0F8;
+  --color-tertiary-dark:   #444249;
+  --color-on-tertiary:     #FFFFFF;
+
+  --color-text:            #2D3A45;
+  --color-text-muted:      #9A97AF;
+  --color-text-light:      #C4BCBA;
+  --color-text-on-dark:    #F5F0EB;
+  --color-text-on-primary: #2D3A45;
+
+  --color-border:          #D8D2CC;
+  --color-border-light:    #EDE8E3;
+  --color-border-active:   #E2CACC;
+
+  --color-accent:          #FAC8C8;
+  --color-accent-warm:     #969678;
+
+  /* ── Radius ── */
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-full: 9999px;
+
+  /* ── Typography ── */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-zh:   'PingFang SC', 'Noto Sans SC', sans-serif;
+
+  --text-display:  200 48px/1.1 var(--font-sans);
+  --text-h1:       200 32px/1.2 var(--font-sans);
+  --text-h2:       300 24px/1.3 var(--font-sans);
+  --text-h3:       300 20px/1.4 var(--font-sans);
+  --text-body-lg:  400 16px/1.6 var(--font-sans);
+  --text-body:     400 14px/1.6 var(--font-sans);
+  --text-caption:  400 12px/1.5 var(--font-sans);
+  --text-label:    600 10px/1.4 var(--font-sans);
+
+  /* ── Spacing ── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 2px 12px rgba(45,58,69,0.06);
+  --shadow-md: 0 4px 20px rgba(45,58,69,0.10);
+  --shadow-lg: 0 8px 32px rgba(45,58,69,0.14);
+  --shadow-primary: 0 4px 16px rgba(226,202,204,0.4);
+
+  /* ── Transitions ── */
+  --transition-fast:   150ms ease;
+  --transition-normal: 200ms ease;
+  --transition-slow:   300ms ease;
+
+  /* ── Layout ── */
+  --max-width:    1440px;
+  --page-padding: 96px;
+  --grid-cols:    12;
+  --grid-gap:     24px;
+}</code></pre>
+        <p class="caption css-hint">与需求文档 PART 5 全文一致，可直接粘贴至项目 index.css。</p>
+      </div>
+    </section>
+
+    <!-- PART 6 · Taboos -->
+    <section class="section section-taboos" id="taboos">
+      <div class="container">
+        <header class="section-head section-head-on-dark">
+          <h2 class="h2 h2-on-dark">设计禁忌清单</h2>
+          <p class="section-lead section-lead-on-dark">PART 6 · 执行红线</p>
+        </header>
+        <ul class="taboo-list">
+          <li>禁止使用纯白 <code>#FFFFFF</code> 作为页面背景（使用 <code>#F5F0EB</code>）</li>
+          <li>禁止使用纯黑 <code>#000000</code> 作为正文色（使用 <code>#2D3A45</code>）</li>
+          <li>禁止冷白 + 警示红配色（用户明确表达恐惧感）</li>
+          <li>禁止高饱和跳色（饱和度 &gt; 60%）</li>
+          <li>禁止方形直角容器（最小圆角 4px）</li>
+          <li>禁止标题字重超过 500</li>
+          <li>禁止镜面 / 亮面质感的 UI 元素</li>
+          <li>禁止「功能罗列式」视觉叙事（须场景化、仪式感）</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>VONMIE × 俪典视觉 · 从调研到规范，每一个决策都有依据 · 2026-04-09</p>
+      <a class="footer-link" href="#top">回到顶部</a>
+    </div>
+  </footer>
+</body>
+</html>
